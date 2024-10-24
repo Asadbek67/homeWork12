@@ -1,0 +1,187 @@
+# 1
+# satr=["asdfasdf","asddgfhdfghdgh","dsfgd"]
+# def count_words(satr):
+#         return len(satr)
+# result=list(map(count_words, satr))
+# print (result)
+
+
+
+# 2
+# sonlar=[1,2,3,4,5,6,7,8,9,10,11,12]
+# result=list(map(lambda sonlar: sonlar*3, sonlar))
+# print (result)
+
+
+
+# 3
+# son1=[1,2,3,4,5,6,7,8,9,10]
+# son2=[1,2,3,4,5,6,7,8,9,10]
+# result=list(map(lambda  son1,son2: son1+son2, son1,son2))
+# print (result)
+
+
+
+
+# 4
+# satr=["asdfasdf","asddgfhdfghdgh","dsfgd"]
+# def index_1(satr):
+#         return satr[-1]
+# result=list(map(index_1, satr))
+# print (result)
+
+
+
+
+# 5
+# sonlar = [15, 23, 37, 45, 60]
+
+# def modul(son):
+#     return son % 10  
+# result = list(map(modul, sonlar))  
+# print(result)
+
+
+
+
+# 6
+# sonlar = [4, 9, 16, 25, 36]
+
+# def kvadrat_ildiz(son):
+#     return son ** 0.5  
+# result = list(map(kvadrat_ildiz, sonlar)) 
+# print(result) 
+
+
+
+
+# 7
+# sonlar = [1, 2, 3, 10, 45, 78, 5, 6, 12, 15, 2, 8, 9, 10000]
+
+# def bolish(x):
+#     if x > 5:
+#         return x / 5
+#     return None  
+# result = list(map(bolish, sonlar))
+# print(result)
+
+
+
+# 8
+# sonlar = [1, 2, 3, 10, 45, 78, 5, 6, 12, 15, 2, 8, 9, 10000]
+
+# def bolish(x):
+#     if x > 5:
+#         return x / 10
+#     return None  
+# result = list(map(bolish, sonlar))
+# print(result)
+
+
+
+
+# 9
+# def eng_katta(x, y):
+#     return max(x, y)
+
+# sonlar_1 = [3, 7, 5, 10]
+# result_9 = []
+
+# for i in range(0, len(sonlar_1), 2):
+#     if i + 1 < len(sonlar_1): 
+#         result_9.append(eng_katta(sonlar_1[i], sonlar_1[i + 1]))
+
+# print("Eng kattalar:", result_9)
+
+
+# # 10
+# sonlar = [1, 2, 3, 4, 5]
+# result_10 = list(map(lambda x: x * 1, sonlar))
+# print("1 ga ko'paytirilgan sonlar:", result_10)
+
+
+
+# # 11
+# sonlar_1 = [1, 2, 3]
+# sonlar_2 = [4, 5, 6]
+# result_11 = list(map(lambda x, y: x**2 + y**2, sonlar_1, sonlar_2))
+# print(f"Kvadratlarni qo'shish natijasi: {result_11}")
+
+
+
+
+# 12
+# sonlar = [1, 22, 345, 67, 2, 8, 6, 89, 4, 100]
+# result_12 = list(filter(lambda x: 10 <= x < 100, sonlar))
+# print("Ikki raqamli sonlar:", result_12)
+
+
+
+#  13
+# sozlar = ["apple", "2banana", "grape", "1orange", "kiwi"]
+# result_13 = list(filter(lambda x: x[0].isalpha(), sozlar))
+# print("Alifbo harfi bilan boshlangan so'zlar:", result_13)
+
+
+
+# 14
+# sozlar = ["hello", "", "world", " ", "python", ""]
+# result_14 = list(filter(lambda x: x == "", sozlar))
+# print("Bo'sh so'zlar:", result_14)
+
+
+
+# 15
+# sozlar = ["123", "hello", "456", "world", "78"]
+# result_15 = list(filter(lambda x: x.isdigit(), sozlar))
+# print("Satrlar ichida sonlar:", result_15)
+
+
+
+# # 16
+# sonlar = [50, 120, 200, 95, 150]
+# result_16 = list(filter(lambda x: x > 100, sonlar))
+# print("100 dan katta sonlar:", result_16)
+
+
+
+
+# # 17
+# sonlar = [10, 25, 30, 41, 50, 60, 70, 80, 90, 100]
+# result_17 = list(filter(lambda x: x % 10 == 0, sonlar))
+# print("10 bilan tugaydigan sonlar:", result_17)
+
+
+
+# # 18
+# sozlar = ["level", "world", "radar", "python", "madam"]
+# result_18 = list(filter(lambda x: x == x[::-1], sozlar))
+# print("Palindrom so'zlar:", result_18)
+
+
+
+# # 19
+# ism = ["ALICE", "bob", "CHARLIE", "dave"]
+# result_19 = list(filter(lambda x: x.isupper(), ism))
+# print("Faqat katta harflar bilan yozilgan ismlar:", result_19)
+
+
+
+# # 20
+# sozlar = ["cat", "dog", "elephant", "bat"]
+# result_20 = list(filter(lambda x: len(x) == 3, sozlar))
+# print("3 ta harfli so'zlar:", result_20)
+
+
+
+# # 21
+# sonlar = [-5, 10, 3, -1, 7, -2]
+# result_21 = list(filter(lambda x: x > 0, sonlar))
+# print("Musbat sonlar:", result_21)
+--------------------------------------end---------------------------------╰(*°▽°*)╯
+
+
+# # 22
+# sonlar = [30, 123, 56, 78, 34, 31]
+# result_22 = list(filter(lambda x: str(x).startswith('3'), sonlar))
+# print("Uch bilan boshlanadigan sonlar:", result_22)
